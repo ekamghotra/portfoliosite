@@ -7,7 +7,7 @@ const aboutme = [
     {
         num: '01',
         title: 'Student',
-        description: 'I\'m currently pursuing a dual program degree at the University of Wisconsin - Madison in Computer Science and Data Science, with a minor in Economic Analytics. Studying the intersection of these disciplines through my coursework has yielded me a deep understanding of Algorithmic Development, especially for use in Economic/Financial spheres.',
+        description: 'I\'m currently pursuing a dual-degree program at the University of Wisconsin - Madison in Computer Science and Data Science, with a minor in Economic Analytics. Studying the intersection of these disciplines through my coursework has yielded me a deep understanding of Algorithmic Development, especially for use in Economic/Financial spheres.',
         href: ""
     },
     {
