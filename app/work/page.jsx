@@ -16,7 +16,7 @@ import Link from "next/link";
 const experience1 = {
     title: "Data Analysis Intern @ Comcast",
     details: "San Francisco Bay Area ~ Summer 2024 ~ 10 Weeks",
-    description: `Supporting Comcast Cable West Division Engineering Operations, specializing in data analysis & engineering to extract actionable insights and patterns, ultimately presenting my findings to D- and V-Suite leadership. Specifically, I: <br/> - Work with Microsoft and Oracle SQL servers, using DBeaver for database connection needs <br/> - Streamlining certain data pulling, cleaning, and transformation tasks with Python, using libraries such as ‘pyodbc’ and ‘pandas’ <br/> - Using advanced SQL querying techniques for data architecture needs before presenting insights`,
+    description: "Supporting Comcast Cable West Division Engineering Operations, specializing in data analysis & engineering to extract actionable insights and patterns, ultimately presenting my findings to D- and V-Suite leadership. Specifically, I: <br/> - Work with Microsoft and Oracle SQL servers, using DBeaver for database connection needs <br/> - Streamlining certain data pulling, cleaning, and transformation tasks with Python, using libraries such as ‘pyodbc’ and ‘pandas’ <br/> - Using advanced SQL querying techniques for data architecture needs before presenting insights",
     info: [
         {
             fieldName: "",
@@ -143,7 +143,7 @@ const Portfolio = () => {
                             <div className="flex flex-col gap-[30px] text-center xl:text-left">
                                 <h2 className="text-4xl font-bold">{experience1.title}</h2>
                                 <h3 className="text-3l font-bold underline"><i>{experience1.details}</i></h3>
-                                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0" dangerouslySetInnerHTML={{ __html: experience1.description }}>{experience1.description}</p>
+                                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">{experience1.description}</p>
                                 <ScrollArea className="h-[400px]">
                                     <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px] ">{experience1.info.map((info, index)=> {
                                             return <li key={index} className="bg-[#232329] h-[80px] py-6 px-10 rounded-xl flex flex-col justify-center items-center sm:items-start gap-1">
