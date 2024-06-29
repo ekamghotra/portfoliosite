@@ -16,7 +16,7 @@ import Link from "next/link";
 const experience1 = {
     title: "Data Analysis Intern @ Comcast",
     details: "San Francisco Bay Area ~ Summer 2024 ~ 10 Weeks",
-    description: "Supporting Comcast Cable West Division Engineering Operations, specializing in data analysis & engineering to extract actionable insights and patterns, ultimately presenting my findings to D- and V-Suite leadership. Specifically, I: <br/> - Work with Microsoft and Oracle SQL servers, using DBeaver for database connection needs <br/> - Streamlining certain data pulling, cleaning, and transformation tasks with Python, using libraries such as ‘pyodbc’ and ‘pandas’ <br/> - Using advanced SQL querying techniques for data architecture needs before presenting insights",
+    description: "Supporting Comcast Cable West Division Engineering Operations, specializing in data analysis & engineering to extract actionable insights and patterns, ultimately presenting my findings to D- and V-Suite leadership. Specifically, I: \n - Work with Microsoft and Oracle SQL servers, using DBeaver for database connection needs \n - Streamlining certain data pulling, cleaning, and transformation tasks with Python, using libraries such as ‘pyodbc’ and ‘pandas’ \n - Using advanced SQL querying techniques for data architecture needs before presenting insights",
     info: [
         {
             fieldName: "",
