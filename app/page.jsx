@@ -18,7 +18,7 @@ const Home = () => {
               Hey there, <br /> I'm <span className="text-accent">Ekam</span>!
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              I posses a deep expertise in Python, C++, SQL, and Java, exceling at algorithmic 
+              I possess a deep expertise in Python, C++, SQL, and Java, exceling at algorithmic 
               development using these languages and related frameworks. See what I've been up 
               to recently using the tabs above!
             </p>
