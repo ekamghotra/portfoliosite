@@ -14,9 +14,9 @@ import Link from "next/link";
 
 // experience1 data
 const experience1 = {
-    title: "Data Analysis & Modeling Intern @ Comcast",
+    title: "Data Analysis Intern @ Comcast",
     details: "San Francisco Bay Area ~ Summer 2024 ~ 10 Weeks",
-    description: "Created several data pipelines with Python from Oracle and Microsoft SQL servers, using DBeaver for database connection needs. Used advanced SQL querying techniques for data architecture needs, and presented all resulting data-driven insights with Tableau, allowing V-Suite leadership for EngOps to have a high level overview of live efficiency of all field deployed telecommunications tech, contributing to a 50+% increaase in local field-technician dispatch time.",
+    description: "Supporting Comcast-Cable West Division Engineering Operations, specializing in data analysis & engineering to extract actionable insights and patterns, ultimately presenting my findings to D- and V-Suite leadership. Specifically, I:" <br/> "- Work with Microsoft and Oracle SQL servers, using DBeaver for database connection needs" <br/> "- Streamlining certain data pulling, cleaning, and transformation tasks with Python, using libraries such as ‘pyodbc’ and ‘pandas’" <br/> "- Using advanced SQL querying techniques for data architecture needs before presenting insights",
     info: [
         {
             fieldName: "",
