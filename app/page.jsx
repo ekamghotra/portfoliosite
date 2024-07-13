@@ -13,10 +13,11 @@ const Home = () => {
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-6">
           {/* text */}
           <div className="text-center xl:text-left order-2 xl:order-none">
-            <span className="text-xl">Aspiring AI/ML Engineer</span>
+            
             <h1 className="h1 mb-6">
               Hey there, <br /> I'm <span className="text-accent">Ekam</span>!
             </h1>
+            <span className="text-xl">Computer Science + Data Science @ UW-Madison</span>
             <p className="max-w-[500px] mb-9 text-white/80">
               I possess a deep expertise in Python, C++, SQL, and Java, exceling at algorithmic 
               development using these languages and related frameworks. See what I've been up 
