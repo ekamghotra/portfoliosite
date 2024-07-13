@@ -17,7 +17,7 @@ const Home = () => {
             <h1 className="h1 mb-6">
               Hey there, <br /> I'm <span className="text-accent">Ekam</span>!
             </h1>
-            <span className="text-xl">Computer Science + Data Science @ UW-Madison</span>
+            <span className="text-xl mb-3">Computer Science + Data Science @ UW-Madison</span>
             <p></p>
             <p className="max-w-[500px] mb-9 text-white/80 gap-8">
               I possess a deep expertise in Python, C++/C, Java, and SQL, exceling at algorithmic 
