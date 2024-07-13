@@ -17,11 +17,11 @@ const Home = () => {
             <h1 className="h1 mb-6">
               Hey there, <br /> I'm <span className="text-accent">Ekam</span>!
             </h1>
-            <span className="text-xl">Computer Science + Data Science @ UW-Madison</span>
+            <span className="text-xxl">Computer Science + Data Science @ UW-Madison</span>
             <p className="max-w-[500px] mb-9 text-white/80 gap-8">
-              I possess a deep expertise in Python, C++, SQL, and Java, exceling at algorithmic 
-              development using these languages and related frameworks. See what I've been up 
-              to recently using the tabs above!
+              I possess a deep expertise in Python, C++/C, Java, and SQL, exceling at algorithmic 
+              development using these languages and related frameworks. Learn a little more about me 
+              and what I've been doing recently using the tabs above!
             </p>
             {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
