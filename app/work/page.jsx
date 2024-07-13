@@ -28,11 +28,11 @@ const experience1 = {
         },
         {
             fieldName: "",
-            fieldValue: "Tableau",
+            fieldValue: "Microsoft/Oracle Servers",
         },
         {
             fieldName: "",
-            fieldValue: "DBeaver",
+            fieldValue: "Tableau",
         },
     ]
 };
@@ -81,9 +81,9 @@ const experience3 = {
 
 // experience4 data
 const experience4 = {
-    title: "Coming Soon...",
-    description: "Information coming soon...",
-    details: "...",
+    title: "ML Researcher @ GIES Business School @ University of Illinois Urbana-Champaign",
+    description: "Conducting research on ML applications on business models",
+    details: "Fall 2024 Semester ~ Remote",
     info: [
         {
             fieldName: "",
@@ -111,7 +111,7 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger, } from "@/com
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { motion } from "framer-motion";
 
-const Portfolio = () => {
+const Work = () => {
     return (
         <motion.div 
             initial={{ opacity: 0 }} 
@@ -132,7 +132,7 @@ const Portfolio = () => {
                         <TabsTrigger value="experience1">Data Analysis & Modeling @ Comcast</TabsTrigger>
                         <TabsTrigger value="experience2">Bio-Data Analysis @ Manus Bio</TabsTrigger>
                         <TabsTrigger value="experience3">Project Manager @ CodeForGood</TabsTrigger>
-                        <TabsTrigger value="experience4">Coming Soon...</TabsTrigger>
+                        <TabsTrigger value="experience4">Fall ML Researcher @ UIUC</TabsTrigger>
                     </TabsList>
                     </div>
 
@@ -220,4 +220,4 @@ const Portfolio = () => {
     );
 };
 
-export default Portfolio;
+export default Work;
