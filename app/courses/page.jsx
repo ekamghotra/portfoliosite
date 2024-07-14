@@ -14,7 +14,7 @@ import Link from "next/link";
 
 // main mainpage
 const mainpage = {
-    title: "UW-Madison Courses Completed/In-Progress",
+    title: "UW-Madison Courses Completed & In-Progress",
     details: "Scroll and click through the courses I've been taking at school!",
     info: "Note: courses sorted by relevancy to intended career path"
     
@@ -187,19 +187,19 @@ const Courses = () => {
                         <ScrollArea className="h-[550px] w-full">
                         
                             <TabsList className="flex flex-col w-full space-y-10">
+                                <TabsTrigger value="course8">Intro to Artificial Intelligence</TabsTrigger>
+                                <TabsTrigger value="course5">Matrix & Linear Algebra</TabsTrigger>
+                                <TabsTrigger value="course10">Discrete Mathematics</TabsTrigger>
+                                <TabsTrigger value="course11">Java - Core Programming I</TabsTrigger>
+                                <TabsTrigger value="course12">Java - Core Programming II</TabsTrigger>
+                                <TabsTrigger value="course13">Java - Core Programming III</TabsTrigger>
+                                <TabsTrigger value="course3">Data Modeling & Analysis I</TabsTrigger>
+                                <TabsTrigger value="course4">Data Modeling & Analysis II</TabsTrigger>
+                                <TabsTrigger value="course7">Intermediate Microeconomic Theory</TabsTrigger>
+                                <TabsTrigger value="course6">Intro Human-Computer Interaction</TabsTrigger>
                                 <TabsTrigger value="course1">Calculus & Analytical Geometry I</TabsTrigger>
                                 <TabsTrigger value="course2">Calculus & Analytical Geometry II</TabsTrigger>
-                                <TabsTrigger value="course3">Data Science Modeling I</TabsTrigger>
-                                <TabsTrigger value="course4">Data Science Modeling II</TabsTrigger>
-                                <TabsTrigger value="course5">Matrix & Linear Algebra</TabsTrigger>
-                                <TabsTrigger value="course6">Intro Human-Computer Interaction</TabsTrigger>
-                                <TabsTrigger value="course7">Intermediate Microeconomic Theory</TabsTrigger>
-                                <TabsTrigger value="course8">Intro to Artificial Intelligence</TabsTrigger>
                                 <TabsTrigger value="course9">Intro to Computer Engineering</TabsTrigger>
-                                <TabsTrigger value="course10">Intro to Computer Engineering</TabsTrigger>
-                                <TabsTrigger value="course11">Core Programming I</TabsTrigger>
-                                <TabsTrigger value="course12">Core Programming II</TabsTrigger>
-                                <TabsTrigger value="course13">Core Programming III</TabsTrigger>
                             </TabsList>
                         
                         </ScrollArea>
@@ -211,7 +211,7 @@ const Courses = () => {
                         {/* mainpage */}
                         <TabsContent value="mainpage" className="w-full">
                             {/* photo */}
-                            <div className="order-1 xl:order-none py-5 xl:mb-0">
+                            <div className="order-1 xl:order-none py-7 xl:mb-0">
                                 <SchoolPhoto />
                             </div>
                             <div className="flex flex-col gap-[30px] text-center xl:text-left">

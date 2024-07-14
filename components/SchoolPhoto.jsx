@@ -28,7 +28,7 @@ const SchoolPhoto = () => {
                         width={1000} // specify width and height
                         height={600} // specify width and height
                         alt="School Campus" 
-                        className="object-cover" 
+                        className="object-cover rounded-2xl" 
                     />
                 </motion.div>
 
