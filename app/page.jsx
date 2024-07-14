@@ -19,7 +19,7 @@ const Home = () => {
             </h1>
             <span className="text-xl mb-3 py-3">Computer Science + Data Science @ UW-Madison</span>
             
-            <p className="max-w-[500px] mb-9 text-white/80 gap-8">
+            <p className="max-w-[500px] mb-9 text-white/80 gap-8 py-3">
               I possess a deep expertise in Python, C++/C, Java, and SQL, exceling at algorithmic 
               development using these languages and related frameworks. Learn a little more about me 
               and what I've been doing recently using the tabs above!
