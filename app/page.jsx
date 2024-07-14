@@ -17,8 +17,14 @@ const Home = () => {
             <h1 className="h1 mb-6">
               Hey there, <br /> I'm <span className="text-accent">Ekam</span>!
             </h1>
+<<<<<<< HEAD
             <span className="text-xl mb-3">CS + DS @ UW-Madison <span className="text-accent">|</span> Data Analysis @ Comcast</span>
             <p className="max-w-[500px] mb-9 text-white/80 gap-8">
+=======
+            <span className="text-xl mb-3 py-3">Computer Science + Data Science @ UW-Madison</span>
+            
+            <p className="max-w-[500px] mb-9 text-white/80 gap-8 py-3">
+>>>>>>> 8c088d00a7e6e1ef8548672df3df5dc7e39d33c7
               I possess a deep expertise in Python, C++/C, Java, and SQL, exceling at algorithmic 
               development using these languages and related frameworks. Learn a little more about me 
               and what I've been doing recently using the tabs above!
